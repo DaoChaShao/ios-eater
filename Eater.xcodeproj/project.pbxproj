@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		376F84552D7C5844007E1FCF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 376F84532D7C583D007E1FCF /* LICENSE */; };
+		376F845F2D7C6DB2007E1FCF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 376F845E2D7C6DA7007E1FCF /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		376F843A2D7C4AE1007E1FCF /* Eater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376F843A2D7C4AE1007E1FCF /* Eater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Eater.app; path = "/Users/daochashao/SwiftProjects/Eater/build/Debug-iphoneos/Eater.app"; sourceTree = "<absolute>"; };
+		376F84532D7C583D007E1FCF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		376F845E2D7C6DA7007E1FCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +39,10 @@
 		376F84312D7C4AE1007E1FCF = {
 			isa = PBXGroup;
 			children = (
+				376F845E2D7C6DA7007E1FCF /* README.md */,
 				376F843C2D7C4AE1007E1FCF /* Eater */,
-				376F843B2D7C4AE1007E1FCF /* Products */,
+				376F84532D7C583D007E1FCF /* LICENSE */,
 			);
-			sourceTree = "<group>";
-		};
-		376F843B2D7C4AE1007E1FCF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				376F843A2D7C4AE1007E1FCF /* Eater.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +95,7 @@
 			mainGroup = 376F84312D7C4AE1007E1FCF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 376F843B2D7C4AE1007E1FCF /* Products */;
+			productRefGroup = 376F84312D7C4AE1007E1FCF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +109,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376F845F2D7C6DB2007E1FCF /* README.md in Resources */,
+				376F84552D7C5844007E1FCF /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
