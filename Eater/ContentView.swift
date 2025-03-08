@@ -14,6 +14,7 @@ struct ContentView: View {
     var body: some View {
 
         VStack {
+            // Occupation with space
             Spacer()
 
             Text(selection)
