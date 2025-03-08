@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct EaterApp: App {
     var body: some Scene {
+        // Using "WindowGroup" should be based on IOS 17+
         WindowGroup {
             ContentView()
         }
