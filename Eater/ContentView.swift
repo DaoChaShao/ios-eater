@@ -8,17 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-
     @State private var selection: String = dishSelection(arrayDishes: dishes)
 
     var body: some View {
-
         VStack {
             // Occupation with space
             Spacer()
 
             Text(selection)
                 .font(.system(size: 48))
+                .multilineTextAlignment(.center)
                 .padding()
 
             Spacer()
@@ -36,7 +35,6 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
-
     }
 }
 
